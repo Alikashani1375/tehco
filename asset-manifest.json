@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tehco/static/css/main.5d1de463.css",
-    "main.js": "/tehco/static/js/main.634fbc2f.js",
-    "static/js/787.fd7a07ad.chunk.js": "/tehco/static/js/787.fd7a07ad.chunk.js",
+    "main.js": "/tehco/static/js/main.95a6a7d7.js",
+    "static/js/787.009c4530.chunk.js": "/tehco/static/js/787.009c4530.chunk.js",
     "static/media/bg1.jpg": "/tehco/static/media/bg1.13b5e3331b08f24aea88.jpg",
     "static/media/bg2.jpg": "/tehco/static/media/bg2.fa7a3dd96c1dc9a4b12e.jpg",
     "static/media/logo-logistic.png": "/tehco/static/media/logo-logistic.bc09e2206f6b4a755ed5.png",
@@ -28,11 +28,11 @@
     "static/media/slick.woff": "/tehco/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tehco/index.html",
     "main.5d1de463.css.map": "/tehco/static/css/main.5d1de463.css.map",
-    "main.634fbc2f.js.map": "/tehco/static/js/main.634fbc2f.js.map",
-    "787.fd7a07ad.chunk.js.map": "/tehco/static/js/787.fd7a07ad.chunk.js.map"
+    "main.95a6a7d7.js.map": "/tehco/static/js/main.95a6a7d7.js.map",
+    "787.009c4530.chunk.js.map": "/tehco/static/js/787.009c4530.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d1de463.css",
-    "static/js/main.634fbc2f.js"
+    "static/js/main.95a6a7d7.js"
   ]
 }
