@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tehco/static/css/main.5d1de463.css",
-    "main.js": "/tehco/static/js/main.95a6a7d7.js",
+    "main.css": "/tehco/static/css/main.d75ec814.css",
+    "main.js": "/tehco/static/js/main.a5344040.js",
     "static/js/787.009c4530.chunk.js": "/tehco/static/js/787.009c4530.chunk.js",
     "static/media/bg1.jpg": "/tehco/static/media/bg1.13b5e3331b08f24aea88.jpg",
     "static/media/bg2.jpg": "/tehco/static/media/bg2.fa7a3dd96c1dc9a4b12e.jpg",
@@ -27,12 +27,12 @@
     "static/media/slick.ttf": "/tehco/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tehco/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tehco/index.html",
-    "main.5d1de463.css.map": "/tehco/static/css/main.5d1de463.css.map",
-    "main.95a6a7d7.js.map": "/tehco/static/js/main.95a6a7d7.js.map",
+    "main.d75ec814.css.map": "/tehco/static/css/main.d75ec814.css.map",
+    "main.a5344040.js.map": "/tehco/static/js/main.a5344040.js.map",
     "787.009c4530.chunk.js.map": "/tehco/static/js/787.009c4530.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d1de463.css",
-    "static/js/main.95a6a7d7.js"
+    "static/css/main.d75ec814.css",
+    "static/js/main.a5344040.js"
   ]
 }
