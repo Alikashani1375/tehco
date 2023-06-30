@@ -1,31 +1,44 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import Slider from "react-slick";
+import bg1 from "./images/bg1.jpg";
+import bg2 from "./images/bg2.jpg";
+import Navbar from "./Navbar";
+import Navbar2 from "./Navbar2";
+
 const TopMenu = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: "true",
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  };
   return (
-    <div className=" mx-auto mt-5 flex w-10/12 items-center justify-center">
-      <div className="me-auto flex text-3xl font-extrabold">
-        <div>Ba</div>
-        <div style={{ color: "#3C9379" }}>chira</div>
-      </div>
-      <div className="mx-auto flex w-5/12 justify-between">
-        <Link to="/" className="font-bold text-sky-950">
-          Home
-        </Link>
-        <div style={{ color: "#535A56" }}>Products</div>
-        <div style={{ color: "#535A56" }}>Categories</div>
-        <div style={{ color: "#535A56" }}>Brands</div>
-        <div style={{ color: "#535A56" }}>Pricing</div>
-      </div>
-      <div className="ms-auto flex items-center">
-        <div className="text-sky-950">Login</div>
-        <button
-          id="registerbtn"
-          style={{ backgroundColor: "#3C9379" }}
-          className="btn-greenshadow ms-3 rounded-lg px-5 py-2 text-sky-50"
-        >
-          Register
-        </button>
-      </div>
+    <div className="h-100 w-100 items-center justify-center">
+      <Navbar />
+      <Navbar2 />
+      <Slider {...settings}>
+        <div>
+          <img src={bg1} id="whfull" />
+          <div id="title1">ارایه و اجرا برنامه نویسی</div>
+          <div id="title2">
+            خدمات تولید نرم افزار
+            <br />
+            ارایه خدمات تولید و پشتیبانی نرم افزاری و طراحی سایت
+          </div>
+        </div>
+        <div>
+          <img src={bg2} id="whfull" />
+          <div id="title3">تهکو به معرفی شما در دنیای دیجیتال</div>
+          <div id="title4">خدمات سئو و تولید محتوا</div>
+          <div id="title5">
+            ارائه خدمات بهینه ساری موتورهای جستجو و بازاریابی محتوایی
+          </div>
+        </div>
+      </Slider>
     </div>
   );
 };

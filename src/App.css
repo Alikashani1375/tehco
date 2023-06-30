@@ -1,60 +1,161 @@
-#fashiontext{
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-color: aliceblue;
-position: absolute;
-width: 200px;
-height: 40px;
-z-index: 100 !important;
-left: 370px;
-top: 30px;
-}
-#skincaretext{
-  position: absolute !important;
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-color: aliceblue;
-width: 200px;
-height: 40px;
-z-index: 100 !important;
-left: 370px;
-top: 30px;
-}
-#shoestext{
-  position: absolute !important;
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-color: aliceblue;
-width: 200px;
-height: 40px;
-z-index: 100 !important;
-left: 157px;
-top: 30px;
-}
-#electronictext{
-  position: absolute !important;
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-color: aliceblue;
-width: 200px;
-height: 40px;
-z-index: 100 !important;
-left: 242px;
-top: 30px;
 
-}
 .btn-greenshadow:hover{
-  box-shadow:  0px 0px 10px 5px #3C9379,  0px 10px 10px 5px #3c769360;
+  box-shadow:  0px 0px 10px 5px #0099CC,  0px 10px 10px 5px #7ed1ec;
+}
+.slick-arrow{
+  color: black !important;
+  position: absolute;
+  top: 50;
+  display: none !important;
+}
+.slick-next{
+  color: green !important;
+  position: absolute;
+  top: 50;
+}
+#whfull{
+  width: 100vw;
+}
+#mousehover:hover{
+color: rgb(255, 255, 255);
+}
+#show1{
+  position: absolute;
+  top: 60.5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #45555a;
+  background-color: white;
+  margin-left: 10px;
+}
+#show2{
+  position: absolute;
+  top: 60.5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #45555a;
+  background-color: white;
+  margin-left: 10px;
+}
+#show3{
+  position: absolute;
+  top: 60.5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #45555a;
+  background-color: white;
+  margin-left: 10px;
+}
+#show4{
+  position: absolute;
+  top: 60.5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #45555a;
+  background-color: white;
+  margin-left: 10px;
+}
+
+
+#svghover:hover{
+  width: 25px;
+  height: 25px;
+}
+#title1{
+  width: 50%;
+  padding: 20px;
+  position: absolute;
+  top: 450px;
+  border-radius: 10px;
+  background-color: #0099CC;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  z-index: 1;
+  font-weight: 600;
+  left: 25%;
+}
+#title2{
+  width: 40%;
+  padding: 20px;
+  position: absolute;
+  top: 530px;
+  z-index: 0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: rgb(53, 188, 228);
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  left: 30%;
+}
+#title3{
+  padding: 20px;
+  position: absolute;
+  top: 330px;
+  color: rgb(43, 139, 241);
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  left: 20%;
+}
+#title4{
+  padding: 20px;
+  position: absolute;
+  top: 360px;
+  color: #303030;
+  font-size: 65px;
+  text-align: center;
+  font-weight: 800;
+  left: 10%;
+}
+#title5{
+  padding: 20px;
+  position: absolute;
+  top: 460px;
+  color: rgb(192, 192, 192);
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  left: 10%;
+}
+#whfull{
+  -webkit-animation: breathing 3s ease-in infinite normal;
+}
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  25% {
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+  }
+
+  50% {
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+  }
+
+  75% {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+  }
+  100%{
+    -webkit-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
+  }
+}
+.activated{
+  border-bottom: 2px dotted rgb(25, 149, 202);
+}
+#btnbanner{
+  position: absolute !important;
+    left: 10% ;
 }
