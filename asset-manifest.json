@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/tehco/static/css/main.5d1de463.css",
+    "main.js": "/tehco/static/js/main.634fbc2f.js",
+    "static/js/787.fd7a07ad.chunk.js": "/tehco/static/js/787.fd7a07ad.chunk.js",
+    "static/media/bg1.jpg": "/tehco/static/media/bg1.13b5e3331b08f24aea88.jpg",
+    "static/media/bg2.jpg": "/tehco/static/media/bg2.fa7a3dd96c1dc9a4b12e.jpg",
+    "static/media/logo-logistic.png": "/tehco/static/media/logo-logistic.bc09e2206f6b4a755ed5.png",
+    "static/media/application.png": "/tehco/static/media/application.0f0b60abc5fb5d427dbc.png",
+    "static/media/seotab.png": "/tehco/static/media/seotab.e1370d40fe7267d30704.png",
+    "static/media/webtab.png": "/tehco/static/media/webtab.e916540e19d551efa8fc.png",
+    "static/media/networktab.png": "/tehco/static/media/networktab.8bebecd6304d2110c511.png",
+    "static/media/server.png": "/tehco/static/media/server.8bebecd6304d2110c511.png",
+    "static/media/suptab.png": "/tehco/static/media/suptab.e9f0853f12c5bf52d01b.png",
+    "static/media/organ.png": "/tehco/static/media/organ.be1f843df5efbc3bf33f.png",
+    "static/media/Shahrdari_Gorgan.png": "/tehco/static/media/Shahrdari_Gorgan.ce86058d2c1bd64fe237.png",
+    "static/media/seo.png": "/tehco/static/media/seo.ecae67641ee9cde698cd.png",
+    "static/media/organization.png": "/tehco/static/media/organization.da7a4091f1b8e838e778.png",
+    "static/media/mojavez.png": "/tehco/static/media/mojavez.4b7fce4be1a79abad326.png",
+    "static/media/elogo.png": "/tehco/static/media/elogo.ec19c9466bd46abfa64b.png",
+    "static/media/support.png": "/tehco/static/media/support.ebcc4189a7b255c1a157.png",
+    "static/media/network.png": "/tehco/static/media/network.0282fe6e479173921bb0.png",
+    "static/media/website.png": "/tehco/static/media/website.84ba64320193fec8d41d.png",
+    "static/media/logo.svg": "/tehco/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/tehco/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/tehco/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/tehco/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/tehco/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/tehco/index.html",
+    "main.5d1de463.css.map": "/tehco/static/css/main.5d1de463.css.map",
+    "main.634fbc2f.js.map": "/tehco/static/js/main.634fbc2f.js.map",
+    "787.fd7a07ad.chunk.js.map": "/tehco/static/js/787.fd7a07ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d1de463.css",
+    "static/js/main.634fbc2f.js"
+  ]
+}
